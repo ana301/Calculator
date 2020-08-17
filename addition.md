@@ -81,7 +81,7 @@ And I press "plus"
 And I type in "2nd large  number"
 And I press "equals"
 Then I see the "added number" till the limit of the screen as the result
-                          
+
 Scenario: 6+* is provided as input?
 Given The calculater is on
 When I type in "1st number"
