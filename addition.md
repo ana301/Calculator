@@ -49,7 +49,7 @@ And I press "equals"
 Then I see the "added number" as the result
 
 Scenario: Addition of decimals
-Given I am able to turn the calulator on and I am able to enter decimal numbers using "."
+Given I am able to turn the calulator on and I am able to enter decimal numbers
 When I type in "1st decimal number"
 And I press "plus"
 And I type in "2nd decimal number"
