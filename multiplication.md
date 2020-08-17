@@ -88,10 +88,10 @@ And I type in "integral number"
 And I press "equals"
 Then I see the "multiplied decimal number" as the result
 
-Scenario: Multiplication of numbers by pressing multiply multiple times
+Scenario: Multiplication of numbers by pressing multiply many times
 Given I am able to turn the calculator on
 When I type in "1st number"
-And I press "multiply" numerous times
+And I press "multiply" many times
 And I press "equals"
 Then I see the "Another operand missing" as the result
 
