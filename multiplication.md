@@ -22,7 +22,7 @@ When I type in "1st number"
 And I press "multiply"
 And I type in "2nd number"
 And I press "equals"
-Then I see the "multiplied number" which can be scrolled to see the result
+Then I see the "multiplied number" which I am able to scroll to see the result
 
 Scenario: Multiplication of positive and negative number
 Given I am able to turn the calculator on
@@ -91,21 +91,21 @@ Then I see the "multiplied decimal number" as the result
 Scenario: Multiplication of numbers by pressing multiply multiple times
 Given I am able to turn the calculator on
 When I type in "1st number"
-And I press "multiply" multiple times
+And I press "multiply" numerous times
 And I press "equals"
 Then I see the "Another operand missing" as the result
 
 Scenario: Multiplication of numbers by pressing interleaving operators
 Given I am able to turn the calculator on
 When I type in "1st number"
-And I press multiple operator like (*,/,-)
+And I press numerous operators like (*,/,-)
 And I type "2nd number"
 And I press "equals"
 Then I see the "multiplied number" as the result
 
-Scenario: Multiplication of numbers by pressing multiply multiple times
+Scenario: Multiplication of numbers by pressing multiply numerous times
 Given I am able to turn the calculator on
 When I type in "1st number"
-And I press "multiply" multiple times
+And I press "multiply" numerous times
 And I press "equals"
 Then I see the "Another operand missing" as the result
