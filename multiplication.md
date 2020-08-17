@@ -98,7 +98,7 @@ Then I see the "Another operand missing" as the result
 Scenario: Multiplication of numbers by pressing interleaving operators
 Given I am able to turn the calculator on
 When I type in "1st number"
-And I press numerous operators like (*,/,-)
+And I press operators like (*,/,-)
 And I type "2nd number"
 And I press "equals"
 Then I see the "multiplied number" as the result
