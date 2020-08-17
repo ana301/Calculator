@@ -82,7 +82,7 @@ And I type in "2nd large  number"
 And I press "equals"
 Then I see the "added number" till the limit of the screen as the result
 
-Scenario: 6+* is provided as input?
+Scenario: Adding number without giving the second operand
 Given I am able to turn the calculator on
 When I type in "1st number"
 And I press "plus"
