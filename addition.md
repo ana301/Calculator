@@ -117,4 +117,4 @@ Scenario: 6+* is provided as input?
                           And I type in "multiply"
                          
                           Then I see the "invalid operand"  as the result
-
+ 
